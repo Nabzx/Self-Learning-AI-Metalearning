@@ -1,5 +1,5 @@
 # Self-Learning-AI-Metalearning
-This repository contains the **research paper, code, and results** for my undergraduate research project on **self-improving AI systems**.  
+This repository contains the **research paper, code, and results** for my fun project on **self-improving AI systems**.  
 The work explores how AI can **learn to learn more effectively**, inspired by Darwinian evolution and meta-learning principles.
 
 ---
