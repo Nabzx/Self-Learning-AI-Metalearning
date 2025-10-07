@@ -4,7 +4,7 @@ The work explores how AI can **learn to learn more effectively**, inspired by Da
 
 ---
 
-**The paper demonstrates:**
+## The paper demonstrates:
 
 Recursive self-improvement using meta-learning
 
@@ -16,7 +16,7 @@ Ethical and safety considerations for self-improving AI
 
 ---
 
-**System Overview:**
+## System Overview:
 The self-improving AI system consists of four main components:
 
 Base Learner – Learns tasks (3-layer neural network)
@@ -29,7 +29,7 @@ Strategy Modifier – Adjusts learning parameters (learning rate, steps)
 
 ---
 
-**Workflow:**
+## Workflow:
 Sample a task
 
 Base learner adapts
@@ -42,7 +42,7 @@ Repeat recursively
 
 ---
 
-**Installation**
+## Installation
 Clone the repo:
 
 bash
@@ -71,7 +71,7 @@ matplotlib – plotting
 
 ---
 
-**Usage:**
+## Usage:
 1. Train the Self-Improving System
 bash
 Copy code
@@ -107,8 +107,8 @@ Generates paper.pdf with all figures and references.
 
 ---
 
-**Results**
-1. Few-Shot Classification Accuracy
+## Results
+### 1. Few-Shot Classification Accuracy
 The self-improving system was evaluated on 5-way 1-shot classification tasks:
 
 Method	Accuracy	Improvement vs Baseline
@@ -116,25 +116,25 @@ Baseline	58.3% ± 3.2%	–
 Static Meta-Learning	72.6% ± 2.1%	+24.5%
 Self-Improving AI	87.1% ± 1.8%	+49.4%
 
-Observations:
+##### Observations:
 
 The self-improving system reaches higher accuracy faster.
 
 Learning curves show S-shaped improvement typical of meta-learning adaptation.
 
-2. Training Efficiency
+### 2. Training Efficiency
 Method	Steps to 80% Accuracy	Time Savings
 Baseline	12.4 ± 2.1	–
 Static Meta	5.8 ± 0.9	53%
 Self-Improving	3.2 ± 0.7	74%
 
-Observations:
+##### Observations:
 
 Recursive self-improvement reduces the number of iterations required.
 
 Strategy modification (adaptive learning rate & steps) accelerates convergence.
 
-3. Visual Analysis
+### 3. Visual Analysis
 Learning Curves:
 
 Shows accuracy progression over iterations.
@@ -147,7 +147,7 @@ Demonstrates oscillations and local optima during adaptation.
 
 Useful for debugging and improving meta-learning strategies.
 
-4. Summary
+### 4. Summary
 Achieves ~87% accuracy on few-shot tasks
 
 Reduces training steps by ~74%
