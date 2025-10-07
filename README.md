@@ -2,7 +2,10 @@
 This repository contains the **research paper, code, and results** for my undergraduate research project on **self-improving AI systems**.  
 The work explores how AI can **learn to learn more effectively**, inspired by Darwinian evolution and meta-learning principles.
 
-The paper demonstrates:
+
+
+**The paper demonstrates:**
+
 Recursive self-improvement using meta-learning
 
 Up to 40–50% performance gains over standard methods
@@ -11,7 +14,9 @@ S-shaped improvement curves and analysis of failure modes
 
 Ethical and safety considerations for self-improving AI
 
-System Overview:
+
+
+**System Overview:**
 The self-improving AI system consists of four main components:
 
 Base Learner – Learns tasks (3-layer neural network)
@@ -23,7 +28,8 @@ Evaluator – Measures task performance
 Strategy Modifier – Adjusts learning parameters (learning rate, steps)
 
 
-Workflow:
+
+**Workflow:**
 Sample a task
 
 Base learner adapts
@@ -34,7 +40,9 @@ Update meta-learner and modify strategy
 
 Repeat recursively
 
-Installation
+
+
+**Installation**
 Clone the repo:
 
 bash
@@ -61,7 +69,9 @@ numpy – numerical operations
 
 matplotlib – plotting
 
-Usage:
+
+
+**Usage:**
 1. Train the Self-Improving System
 bash
 Copy code
@@ -95,7 +105,9 @@ cd paper
 pdflatex paper.tex
 Generates paper.pdf with all figures and references.
 
-Results
+
+
+**Results**
 1. Few-Shot Classification Accuracy
 The self-improving system was evaluated on 5-way 1-shot classification tasks:
 
