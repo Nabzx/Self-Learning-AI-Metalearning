@@ -137,13 +137,11 @@ Strategy modification (adaptive learning rate & steps) accelerates convergence.
 3. Visual Analysis
 Learning Curves:
 
-
 Shows accuracy progression over iterations.
 
 Self-improving system consistently outperforms baseline and static meta-learning.
 
 Failure Modes:
-
 
 Demonstrates oscillations and local optima during adaptation.
 
