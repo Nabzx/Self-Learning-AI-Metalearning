@@ -47,7 +47,7 @@ Clone the repo:
 
 bash
 Copy code
-git clone https://github.com/Nabz/self-improving-ai.git
+git clone https://github.com/Nabz/self-learning-ai-metalearning.git
 cd self-improving-ai
 Create a Python virtual environment:
 
