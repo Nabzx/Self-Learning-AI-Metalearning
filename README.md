@@ -2,7 +2,7 @@
 This repository contains the **research paper, code, and results** for my undergraduate research project on **self-improving AI systems**.  
 The work explores how AI can **learn to learn more effectively**, inspired by Darwinian evolution and meta-learning principles.
 
-
+---
 
 **The paper demonstrates:**
 
@@ -14,7 +14,7 @@ S-shaped improvement curves and analysis of failure modes
 
 Ethical and safety considerations for self-improving AI
 
-
+---
 
 **System Overview:**
 The self-improving AI system consists of four main components:
@@ -27,7 +27,7 @@ Evaluator – Measures task performance
 
 Strategy Modifier – Adjusts learning parameters (learning rate, steps)
 
-
+---
 
 **Workflow:**
 Sample a task
@@ -40,14 +40,14 @@ Update meta-learner and modify strategy
 
 Repeat recursively
 
-
+---
 
 **Installation**
 Clone the repo:
 
 bash
 Copy code
-git clone https://github.com/<your-username>/self-improving-ai.git
+git clone https://github.com/Nabz/self-improving-ai.git
 cd self-improving-ai
 Create a Python virtual environment:
 
@@ -55,7 +55,7 @@ bash
 Copy code
 python -m venv venv
 source venv/bin/activate   # Linux / macOS
-# .\venv\Scripts\activate  # Windows
+.\venv\Scripts\activate  # Windows
 Install dependencies:
 
 bash
@@ -69,7 +69,7 @@ numpy – numerical operations
 
 matplotlib – plotting
 
-
+---
 
 **Usage:**
 1. Train the Self-Improving System
@@ -105,7 +105,7 @@ cd paper
 pdflatex paper.tex
 Generates paper.pdf with all figures and references.
 
-
+---
 
 **Results**
 1. Few-Shot Classification Accuracy
